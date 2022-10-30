@@ -22,7 +22,6 @@ const Index = () => {
       };
     })
   );
-
   // 随机获取colorList中的10个元素
   const [randomColorList, setRandomColorList] = useState(
     colorList.sort(() => Math.random() - 0.5).slice(0, 10)
