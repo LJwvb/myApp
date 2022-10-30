@@ -7,6 +7,7 @@ import "./index.less";
 const Index = () => {
   const color = ["red", "yellow", "green", "blue"];
   const colorText = ["红", "黄", "绿", "蓝"];
+  
   const rightColorToText = color.map((item) => {
     return {
       color: item,
