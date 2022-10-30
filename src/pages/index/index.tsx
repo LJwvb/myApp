@@ -1,5 +1,5 @@
 /* eslint-disable jsx-quotes */
-import { Component, PropsWithChildren, useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { View, Text, Button } from "@tarojs/components";
 import Taro from "@tarojs/taro";
 import "./index.less";
