@@ -1,6 +1,8 @@
 export default defineAppConfig({
   pages: [
-    'pages/index/index'
+    'pages/schulteGrid/index',
+
+    'pages/index/index',
   ],
   window: {
     backgroundTextStyle: 'light',
